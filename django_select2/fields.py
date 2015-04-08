@@ -777,7 +777,7 @@ class HeavyModelSelect2TagField(HeavySelect2FieldBaseMixin, ModelMultipleChoiceF
 
 # ## Heavy general field that uses central AutoView ##
 
-
+'''
 class AutoSelect2Field(AutoViewFieldMixin, HeavySelect2ChoiceField):
     """
     Auto Heavy Select2 field.
@@ -876,3 +876,4 @@ class AutoModelSelect2TagField(ModelResultJsonMixin, AutoViewFieldMixin, HeavyMo
     __metaclass__ = UnhideableQuerysetType
 
     widget = AutoHeavySelect2TagWidget
+'''
