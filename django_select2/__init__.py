@@ -121,10 +121,10 @@ try:
             HeavySelect2ChoiceField, HeavySelect2MultipleChoiceField,
             HeavyModelSelect2ChoiceField, HeavyModelSelect2MultipleChoiceField,
             ModelSelect2Field, ModelSelect2MultipleField,
-            AutoSelect2Field, AutoSelect2MultipleField,
-            AutoModelSelect2Field, AutoModelSelect2MultipleField,
-            HeavySelect2TagField, AutoSelect2TagField,
-            HeavyModelSelect2TagField, AutoModelSelect2TagField
+            # AutoSelect2Field, AutoSelect2MultipleField,
+            # AutoModelSelect2Field, AutoModelSelect2MultipleField,
+            HeavySelect2TagField, # AutoSelect2TagField,
+            HeavyModelSelect2TagField, # AutoModelSelect2TagField
         )  # NOQA
         from .views import Select2View, NO_ERR_RESP
 
