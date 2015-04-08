@@ -283,7 +283,7 @@ class ModelResultJsonMixin(object):
         ]
         return NO_ERR_RESP, has_more, res
 
-
+'''
 class UnhideableQuerysetType(type):
     """
     This does some pretty nasty hacky stuff, to make sure users can
@@ -311,7 +311,7 @@ class UnhideableQuerysetType(type):
         if queryset is None and hasattr(cls, '_subclass_queryset'):
             kwargs['queryset'] = getattr(cls, '_subclass_queryset')
         return type.__call__(cls, *args, **kwargs)
-
+'''
 
 class ChoiceMixin(object):
     """
